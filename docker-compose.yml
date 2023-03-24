@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  patternsworkshop:
+    image: ${DOCKER_REGISTRY-}patternsworkshop
+    build:
+      context: .
+      dockerfile: PatternsWorkShop/Dockerfile
